@@ -14,8 +14,6 @@ b - バックプロジェクション表示の切り替え
 h - ヒストグラム表示のオンオフ
 */
 
-//delete some files 
-
 #include <iostream>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
