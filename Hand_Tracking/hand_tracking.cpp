@@ -229,12 +229,13 @@ main(int argc, char *argv[])
 
 	cv::VideoCapture capWebcam(0);		// declare a VideoCapture object and associate to webcam, 0 => use 1st webcam
 
-	//cv::VideoCapture capWebcam("http://172.16.0.254:9176");  // This Http address allows you to capture a stream from Kodak SP360 through WIFI
+	//cv::VideoCapture capWebcam("http://172.16.0.254:9176");  
+	//This Http address allows you to capture a stream from Kodak SP360 through WIFI
 
 	capWebcam.set(CV_CAP_PROP_FRAME_WIDTH, 720);
 	capWebcam.set(CV_CAP_PROP_FRAME_HEIGHT, 480);
-	//    int		i;
-	//	int		j = 0;
+	//  int	i;
+	//	int	j = 0;
 	int		key;	//	キー入力結果を格納する変数
 
 					//    cv::Point pt[SEGMENT];	//	制御点の座標
