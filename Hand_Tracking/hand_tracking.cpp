@@ -227,9 +227,9 @@ main(int argc, char *argv[])
 	cv::Mat frameImage;         //	キャプチャ画像用cv::Mat
 
 
-	cv::VideoCapture capWebcam(0);		// declare a VideoCapture object and associate to webcam, 0 => use 1st webcam
+	//cv::VideoCapture capWebcam(0);		// declare a VideoCapture object and associate to webcam, 0 => use 1st webcam
 
-	//cv::VideoCapture capWebcam("http://172.16.0.254:9176");  
+	cv::VideoCapture capWebcam("http://172.16.0.254:9176");  
 	//This Http address allows you to capture a stream from Kodak SP360 through WIFI
 
 	capWebcam.set(CV_CAP_PROP_FRAME_WIDTH, 720);
